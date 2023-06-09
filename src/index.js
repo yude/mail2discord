@@ -36,14 +36,14 @@ export default {
 						},
 					],
 					from: {
-						email: "discord+noreply@yude.jp",
-						name: 'E-mail to Discord proxy',
+						email: "spam+noreply@yude.jp",
+						name: '漏れ',
 					},
 					subject: 'Your mail has been successfully proxied to Discord.',
 					content: [
 						{
 							type: 'text/plain',
-							value: `あなたが送ってくれたメールは、Discord のテキストチャンネルに転送されました。\n以下が転送された内容になります。\n\n件名: `+parsedEmail.subject+`\n本文:\n`+parsedEmail.text+`\n\nお手紙どうもありがとう！`,
+							value: `あなたが送ってくれたメールは、Discord のテキストチャンネルに転送されました。\nお手紙どうもありがとう！`,
 						},
 					],
 				}),
